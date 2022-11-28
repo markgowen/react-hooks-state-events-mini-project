@@ -11,8 +11,8 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
   function handleSubmit(e) {
     e.preventDefault();
     onTaskFormSubmit({
-      text,
-      category,
+      text: text,
+      category: category,
     })
     setText("")
     setCategory("Code")
